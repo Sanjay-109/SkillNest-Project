@@ -1,0 +1,11 @@
+ConversationsServlet$Conversation.class
+LogoutServlet.class
+com\mycompany\skillnest\JakartaRestConfiguration.class
+SendMessageServlet.class
+ConversationsServlet.class
+UpdateProfileServlet.class
+ImageUploadServlet.class
+LoginServlet.class
+com\mycompany\skillnest\resources\JakartaEE10Resource.class
+EnrollmentServlet.class
+SignUpServlet.class

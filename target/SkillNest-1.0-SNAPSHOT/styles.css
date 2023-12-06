@@ -1,0 +1,204 @@
+body {
+    font-family: 'Arial', sans-serif;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 60px
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 20px;
+}
+
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+.banner-navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.banner-navigation a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.125rem;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.banner-navigation a:hover {
+    border-bottom: 2px solid #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    color: #000000;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        text-align: center;
+    }
+
+    .banner-navigation {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner-navigation a {
+        margin-bottom: 0.625rem;
+    }
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+section.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+.feature {
+    text-align: center;
+    max-width: 300px;
+}
+
+.feature img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+section.community {
+    padding: 2rem;
+}
+
+.community h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.community p {
+    font-size: 16px;
+    margin-bottom: 2rem;
+}
+
+.discussion-thread {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+
+.discussion-thread h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.courses-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.course {
+    width: calc(30% - 20px);
+    margin-bottom: 20px; /* Adjusted margin to provide space between courses */
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.course img {
+    max-width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin-top: auto;
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #297fb8;
+}
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .signup-link {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .signup-link a {
+            color: #3498db;
+            text-decoration: none;
+        }
+/*footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}*/
